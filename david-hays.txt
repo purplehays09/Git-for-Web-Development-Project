@@ -3,13 +3,22 @@ my codepen: https://codepen.io/purplehays/pen/KKVoBpV
 Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
 
     1. What is Semantic HTML? 
+    Semanitic HTML is using HTML tag that make logical sense and describe what kind of content is contained in them
     2. What is HTML used for? 
+    Outlining the content and structure of the webpage.
     3. What is an attribute and where do we put it? 
+    Attributes are elements of the HTML tags that add id's classes or nessesary information to render correctly on the page. They go within the opening tag
     4. What is the h1 tag used for? How many times should I use it on a page?
+    h1 tags are the largest headings on the page and should only be used one time. 
     5. Name two tags that have required attributes
+    img tags require an 'src' attribute and a tags require an 'href' attribute
     6. What do we put in the head of our HTML document? 
+    The head contains information for our browser to decode including style sheets and script sheets needed to render the page correctly
     7. What is an id? 
+    and id is an identifier that designates one single tag on the HTML
     8. What elements can I add an id to? 
+    You can add id tags to any element to specify it, however, you can only use each id one time and therefore you can only use it one time!
+    
     9. How many times can I use the same id on a page? 
     10. What is a class? 
     11. What elements can I add a class to? 
