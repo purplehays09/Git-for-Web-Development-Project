@@ -17,42 +17,91 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     7. What is an id? 
     and id is an identifier that designates one single tag on the HTML
     8. What elements can I add an id to? 
-    You can add id tags to any element to specify it, however, you can only use each id one time and therefore you can only use it one time!
-    
+    You can add id tags to any element to specify it, however, you can only use each id one time and therefore you can't use it passed 
     9. How many times can I use the same id on a page? 
+    oh hahaha just once
     10. What is a class? 
+    Classes are like ids but you can group multiple tags on the same class. They share the same functionality but classes can be repeated. 
     11. What elements can I add a class to? 
+    you can add a class to any HTML element 
     12. How many times can I use the same class on a page? 
+    As many as you want
     13. How do I get my link to open in a new tab?
+    add a "target='_blank'" to the anchor tag
     14. What is the alt attribute in the image tag used for? 
+    the alt attribute sets the displayed text if an image can't load
     15. How do I reference an id?
+    id's are referrenced with a # symbol
     16. What is the difference between a section and a div
+    section is semantic and div is not
     17. What is CSS used for? 
+    CSS is the style sheet that defines the appearance and design of the HTML
     18. How to we select an element? Example - every h2 on the page
+    the element followed by open curly braces : h2{}
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    class is used for any style that you want to repeat on a page and an id is used if it is only going to be used once. If you have 5 paragraphs of reviews and you want to bold the highest rated, you can give all of the p tags a class of "review" and you can give the desired one an id of "bolded". Then you can specify different style for each
     20. How do we select classes in CSS?
+    with a preceeding period: .class
     21. How do we select a p element with a single class of “human””?
+    p .human
     22. What is a parent child selector? When would this be useful? 
+    parent child selectors are a way of specifying the xpath to a tag rather than the id or class. If you know you want to change the p tag inside every div, you can use this as a simple attribute call
     23. How do you select all links within a div with the class of sidebar?
+    div.class a{}
     24. What is a pseudo selector?
+    psudo selectors are elements that define a special parts of the attribute. IE: first-line
     25. What do we use the change the spacing between lines?
+    line height
     26. What do we use to change the spacing between letters?
+    letter spacing
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform
     28. How do I add a 1px border around my div that is dotted and black?
+    div{
+      border:1px dotted black;
+      }
     29. How do I select everything on the page? 
+    *{
+    
+    }
     30. How do I write a comment in CSS?
+    /* comment */
     31. How do I find out what file I am in, when I am using the command line? 
+    pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm - there are no safeguards for this so if you remove a file it is gone forever
     34. Why should I use version control? 
+    so that you can collaborate with others at the same time in different parts of the same project. It is pretty much impossible without this
     35. How often should I commit to github?
+    frequently?
     36. What is the command we would use to push our repo up to github? 
+    git push
     37. Walk me through Lambda's git flow. 
+    go to the repo
+    fork the repo
+    add your tl as a collaborator
+    copy the clone link
+    open terminal and navigate to the correct folder
+    git clone 'link'
+    make a branch: git checkout -b 'fist_name-last_name"
+    open the file in vs code (code .)
+    save changes
+    back to the terminal git add .
+    git commit -m 'message'
+    git push -u origin first_name-last_name (after the first time you can just do git push)
+    back on github, find the repo, and do a pull request
+    navigate to your branch and add comments
+    add your tl as a reviewer
+    DON'T merge pull request
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+    ... I mean the inline elements can specify specific targets of a larger block. But the block elements effect everything in the width and scope of the block
     2. What happens when an element is positioned absolutely? 
+    absolute positions will not change its position when the size changes and other elements will move around it
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
